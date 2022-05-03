@@ -24,7 +24,7 @@
             Our clients can rely on us in terms of accounting, budget planning, <br>taxes etc. We provide a wide range of financial services for <br>
             businesses and individual purposes.
         </p>
-        <div class="row">
+        <div class="row" [class.darkMode] ="checkTheme">
             <div>
                 <h2>1500</h2>
                 <p>Successful Rides</p>
@@ -34,6 +34,7 @@
                 <p>Years of Experience</p>
             </div>
         </div>
+        <button type="button" (click) ="toggleTheme()"> Click to change background</button> <br> <br>
         <div class="row">
             <div>
                 <h2>1500</h2>
