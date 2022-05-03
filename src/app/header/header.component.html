@@ -1,0 +1,36 @@
+<header>
+    <nav class="navbar">
+        <div>
+            <img src="../../assets/images/logo.svg" alt="">
+        </div>
+        <div id="link-wrapper">
+            <ul class="links">
+                <li><a routerLink="/" class="active"> Home</a></li>
+                <li><a routerLink=""> About Us</a></li>
+                <li><a routerLink=""> Our Ride</a></li>
+                <li><a routerLink=""> Our Drivers</a></li>
+                <li><a routerLink=""> Contact</a></li>
+                <li><a routerLink=""> Gallery</a></li>
+            </ul>
+        </div>
+
+        <div id="links-wrapper"  [hidden] ="isDisplayed">
+            <ul class="links">
+                <li><a routerLink="/" class="active"> Home</a></li>
+                <li><a routerLink=""> About Us</a></li>
+                <li><a routerLink=""> Our Ride</a></li>
+                <li><a routerLink=""> Our Drivers</a></li>
+                <li><a routerLink=""> Contact</a></li>
+                <li><a routerLink=""> Gallery</a></li>
+            </ul>
+        </div>
+       <img src="../../assets/images/toggle.svg" alt="" class="toggle"  (click) = "toggle()">
+    </nav>
+
+    <div>
+        <h1 class="text-white head-text"> The Best Chaffeur <br> Company</h1>
+        <p class="text-center text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, molestias!</p>
+        <button class="btn btn-lg btn-primary btn-blue"> Order Ride</button>
+    </div>
+
+</header>
