@@ -14,7 +14,7 @@
             </ul>
         </div>
 
-        <div id="links-wrapper"  [hidden] ="isDisplayed">
+        <div id="links-wrapper"  *ngIf ="isDisplayed">
             <ul class="links">
                 <li><a routerLink="/" class="active"> Home</a></li>
                 <li><a routerLink=""> About Us</a></li>
